@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="hd">
+            <div class="grid">
+                <div class="hd__main">
+        
+                    <ul class="hd__left">
+                        <li class="hd__logo">
+                            <a href="/index.html" class="hd__logo-link">
+                                <img src="./assets/img/logo4S.png" alt="4S CINEMA" class="hd__logo-img">
+                            </a>
+                        </li>
+                        <li class="hd__nav-item hd__nav-item--local ">
+                            Rạp phim
+                            <div class="hd__local">
+                                <a href="" class="hd__local-link">
+                                    4SCinema Mỹ Đình
+                                </a>
+                                <a href="" class="hd__local-link">
+                                    4SCinema Tây Hồ
+                                </a>
+                                <a href="" class="hd__local-link">
+                                    4SCinema Thanh Xuân
+                                </a>
+                                <a href="" class="hd__local-link">
+                                    4SCinema Hai Bà Trưng
+                                </a>
+                                <a href="" class="hd__local-link">
+                                    4SCinema Cầu Giấy
+                                </a>
+                                <a href="" class="hd__local-link">
+                                    4SCinema Long Biên
+                                </a>
+                            </div>
+                        </li>
+                        <li class="hd__nav-item">
+                            <a href="/showtimes.html" class="hd__nav-link">Lịch chiếu</a>
+                        </li>
+                        <li class="hd__nav-item">
+                            <a href="/promotion.html" class="hd__nav-link">Ưu đãi</a>
+                        </li>
+                    </ul>
+
+                   
+                    <ul class="hd__right">
+                        <li class="hd__search">
+                            <div class="hd__search-wr">
+                                <input type="text" class="hd__search-input" placeholder="Tìm phim, rạp">
+                                <i class="hd__search-icon fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </li>
+                        <li class="hd__login">
+                            <i class="hd__login-icon fa-regular fa-circle-user"></i>
+                            <a href="./login.html" class="hd__login-link">
+                                    
+                                Đăng nhập
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="login">
+                <div class="login-form login-form-login">
+                    <form action="">
+                        <h1>Đăng nhập</h1>
+                        <div class="input-box">
+    
+                            <input type="text" id="username" required placeholder="Tên đăng nhập">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="input-box">
+                            
+                            <input type="password" id="password" required placeholder="Mật khẩu">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <div class="remember-forgot">
+                            <label>
+                                <input type="checkbox"> Lưu mật khẩu đăng nhập
+                            </label>
+                            <a href="#">Quên mật khẩu</a>
+                        </div>
+                        <button class="btn">ĐĂNG NHẬP</button>
+                        <div class="register-link">
+                            <p>Bạn chưa có tài khoản? <a href="#"  class="switch-to-register">Đăng ký</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="login-form login-form-register">
+                    <form action="">
+                        <h1>Đăng ký</h1>
+                        <div class="input-box">
+                            <input type="text" id="username" required placeholder="Họ và tên">
+                            <i class="fa-solid fa-pen"></i>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" id="username" required placeholder="Số điện thoại">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" id="username" required placeholder="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" id="username" required placeholder="Tên đăng nhập">
+                            <i class="fa-solid fa-user"></i>
+                            
+                        </div>
+                        <div class="input-box">
+                            <input type="password" id="password" required placeholder="Mật khẩu">
+                            <i class="fa-solid fa-lock"></i>
+                          
+                        </div>
+                        <div class="input-box">
+                            <input type="password" id="password" required placeholder="Xác thực mật khẩu">
+                            <i class="fa-solid fa-lock"></i>
+                            
+                        </div>
+                        <div class="remember-forgot">
+                            <label>
+                                <input type="checkbox"> Khách hàng đồng ý với các <a href="/policy.html" >điều khoản và chính sách bảo mật</a>
+                                của 4SCinema
+                            </label>
+                        </div>
+                        <button class="btn">ĐĂNG KÝ</button>
+                        <div class="login-link">
+                            <p>Bạn chưa có tài khoản? <a href="#" class="switch-to-login">Đăng nhập</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                
+        </div>
+        
+
+
+      
+    </div>
+    
+        <script src="script.js"></script>
+                        
+
+</body>
+
+</html>
