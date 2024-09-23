@@ -380,12 +380,8 @@
     background: linear-gradient(to right, rgb(103, 48, 159), rgb(29, 91, 189) );
     display: flex;
     justify-content: center;
-    
-}
-
-.footer-container{
     padding-top: 100px;
-    width: 70%;
+    
 }
 
 
