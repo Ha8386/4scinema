@@ -10,6 +10,7 @@
     --font-small: 14px;
     --border-bottom: solid 0.667px darkgray;
     --font-title: 'Anton', sans-serif; 
+    --icon-color: yellow;
 }
 
 *{
