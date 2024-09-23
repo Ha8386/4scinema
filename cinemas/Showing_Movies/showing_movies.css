@@ -141,14 +141,14 @@
 .showing__movies-attribute{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding-left: 0;
 }
 
 .showing__movies-label{
     display: flex;
-
+    margin-right: 15px;
 }
 
 .fa-solid{
@@ -232,7 +232,7 @@
     border-radius: 4px;
     text-align: center;
     padding: 5px;
-    margin:0 4px 5px; 
+    margin:0 3px 5px; 
 
 }
 
