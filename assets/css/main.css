@@ -340,7 +340,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-  
+    margin-bottom: 100px;
 }
 .btn-showtimes button {
     width: 255px;
@@ -1668,8 +1668,9 @@
 .dt-food .combo-item {
     width: 336px;
 }
-
-
+.dt-food-body .combo-list {
+    margin: 00;
+}
 
 
 
