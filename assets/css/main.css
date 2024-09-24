@@ -840,7 +840,7 @@
 .promotion-movie-wr .row {
     flex-wrap: nowrap;
 }
-.sub-tittle {
+.sub-title {
     font-family: var(--font-title);
     font-size: 24px;
     text-transform: uppercase;
@@ -1167,10 +1167,10 @@
     list-style: none;
     padding: 0;
 }
-.tt .sub-tittle {
+.tt .sub-title {
     margin-bottom: .8rem;
 }
-.sub-tittle {
+.sub-title {
     color: #f8fafc;
     font-family: var(--font-title);
     font-size: 2.4rem;
@@ -1337,7 +1337,7 @@
 .cinema-heading {
     padding: 2.4rem;
 }
-.cinema-heading .tittle {
+.cinema-heading .title {
     color: #f3ea28;
     font-size: 2.4rem;
     font-weight: 600;
@@ -1411,7 +1411,7 @@
     border: .1rem solid rgba(248, 250, 252, .5);
     border-radius: .4rem;
     flex-direction: column !important;
-    padding: 2rem !important;
+    padding: 2rem ;
 }
 .content .content-top {
     display: flex;
@@ -1602,12 +1602,72 @@
     width: 30px;
 }
 
+/* chọn bắp nước */
+.dt-food-body .title {
+    color: #f3ea28;
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+    text-align: center;
+}
+.combo-list {
+    justify-content: center;
+}
+.food-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    gap: 1.2rem;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+}
+.dt-food-body .food-box {
+    text-align: left;
+    flex-direction: row;
+}
+.dt-food .food-box .img {
+    overflow: hidden;
+    width: 37.5%;
+    border-radius: .4rem;
+}
+.dt-food .food-box .image {
+    position: relative;     
+    height: 160px;
+}
 
+.dt-food .food-box .content {
+    padding: 0;
+    border: none;
+    height: 100%;
+}
+.food-box .content .content-top {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem 0;
+    width: 200px;
+}
+.dt-food .food-box .content .content-top {
+    align-items: flex-start;
+}
+.dt-food .food-box .content-top .sub-title {
+    text-align: start;
+}
+.dt-food .content-top .name {
+    text-transform: uppercase;
+    margin: 2px;
+}
 
-
-
-
-
+.dt-food .content-top .desc p {
+    margin: 0;
+}
+.dt-food .content-top .price p {
+    margin: 0;
+}
+.dt-food .combo-item {
+    width: 336px;
+}
 
 
 
