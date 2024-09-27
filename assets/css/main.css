@@ -1,4 +1,4 @@
-/* Tổng quan giao diện chính */
+/*  -------------------------------------giao diện chính (index.html)-------------------------------------------*/
 /* phần header */
 .hd {
     height: 120px;
@@ -108,15 +108,17 @@
     font-size: 24px;
     margin-right: 5px;
 }
-/* main  */
+
+
+
+/* phần main giao diện  */
 .app-main {
     min-height: 100vh; 
     background: radial-gradient(rgb(120, 95, 203) 0%, rgba(15,23,42,1) 70%, rgb(2, 2, 37) 100%);
 }
-/* banner */
+/* banner đầu giao diện */
 .banner-web {
-    display: flex;
-    
+    display: flex; 
     position: relative;
     overflow: hidden;
     height: 420px;  
@@ -146,6 +148,8 @@
     cursor: pointer;
    
 }
+
+/* nút trái phải trên banner */
 .switch-to-last {
     margin-right: 20px;
 }
@@ -216,7 +220,7 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+    align-items: center; 
     position: relative
 }
 
@@ -240,7 +244,7 @@
     color: rgb(242, 220, 59);
 }
 
-/* Trailer phim */
+/* xem Trailer phim trên mỗi ô phim */
 .trailer-and-order-ticket{
     width: 100%;
     display: flex;
@@ -285,6 +289,7 @@
     display: flex;
     justify-content: center;
 }
+
 /* bullet */
 .movie-bullet {
     background-color: #64748b;
@@ -302,7 +307,8 @@
     background-color: #f8fafc;
    
 }
-/* nút chuyển trang */
+
+/* 2 nút chuyển trang */
 .arrow-btn-prev i, 
 .arrow-btn-next i {
     font-size: 40px;
@@ -334,6 +340,7 @@
 .arrow-btn-next {
     right: -7rem;
 }
+
 /* nút xem thêm */
 .btn-showtimes{
     display: flex;
@@ -352,7 +359,7 @@
     color: var(--text-color);
 }
 
-/* khuyến mãi */
+/* main khuyến mãi  */
 
 .promotion-container {
     overflow: hidden;
@@ -375,7 +382,9 @@
 }
 
 
-/* footer */
+
+
+/* ------------------------------footer---------------------------- */
 .footer{
     background: linear-gradient(to right, rgb(103, 48, 159), rgb(29, 91, 189) );
     display: flex;
@@ -525,9 +534,11 @@
     margin-top: 20px;
 }
 
-/* Các chức năng của web */
+/*  ------------------------------------- các chức năng chính của web -------------------------------------------*/
 
-/* chức năng rạp phim */
+
+
+/* ----------------------- chức năng hover rạp phim --------------------------*/
 .hd__local {
     position: absolute;
     display: none;
@@ -555,11 +566,11 @@
  .hd__nav-item--local::before {
      position: absolute;
      width: 100%;
-     height: 20px; /* Điều chỉnh chiều cao để phù hợp */
+     height: 20px; 
      left: 0;
-     top: 100%; /* Đặt ngay phía dưới "Rạp phim" */
+     top: 100%; 
      content: "";
-     z-index: 0; /* Đảm bảo phần tử này nằm trên */
+     z-index: 0; 
  
  }
  .hd__local-link {
@@ -583,7 +594,10 @@
      color: var(--hover-color);
  }
 
- /* chức năng lịch chiếu */
+
+
+ /* ----------------------------chức năng lịch chiếu(showtimes.html)-------------------- */
+
 /* Phần thân trang web */
 .showtimes{
     background: radial-gradient(rgb(95, 71, 171) 0%, rgba(15,23,42,1) 70%, rgb(2, 2, 37) 80%, rgb(2, 2, 37) 100%);
@@ -809,7 +823,9 @@
 }
 
 
-/* chức năng ưu đãi */
+/* --------------------------------chức năng ưu đãi(promotion.html)-------------------------- */
+
+
 .app-promotion {
     background: radial-gradient(rgb(120, 95, 203) 0%, rgba(15,23,42,1) 70%, rgb(2, 2, 37) 100%);
     color: var(--text-color);
@@ -872,7 +888,9 @@
 }
 
 
-/* chức năng đăng nhập đăng kí */
+
+
+/* --------------------------chức năng đăng nhập đăng kí(login.html)---------------------------------- */
 .login {
     display: flex;
     justify-content: center;
@@ -1016,7 +1034,11 @@
 }
 
 
-/* đặt vé phim */
+
+
+/* -----------------------------------------đặt vé phim(movie)------------------------------------------------- */
+
+
 .app-content {
     background: radial-gradient(rgb(120, 95, 203) 0%, rgba(15,23,42,1) 70%, rgb(2, 2, 37) 100%);
     color: var(--text-color);
@@ -1188,28 +1210,6 @@
     height: 3.4rem;
 }
 
-/*chính sách bảo mật  */
-.main-policy p  {
-    margin: 15px 0;
-}
-.main-policy {
-    background: radial-gradient(rgb(120, 95, 203) 0%, rgba(15,23,42,1) 70%, rgb(2, 2, 37) 100%);
-    color: var(--white-color);
-    font-size: var(--font-medium);
-}
-.main-policy h2  {
-
-    margin-top: 0px;
-    padding: 13px;
-}
-.botton-policy {
-    width: 100%;
-    height: 80px;
-    background-color: rgb(4 6 38);
-    margin-top: -18px;
-}
-    
-/* chức năng đặt vé */
 .shtime {
     padding-bottom: 80px;
 }
@@ -1370,7 +1370,8 @@
     font-size: 16px;
 }
 
-/* chọn ghế */
+
+/* chọn loại vé */
 .ticket {
     padding-bottom: 60px;
 }
@@ -1483,6 +1484,7 @@
     color: #f3ea28;
 }
 
+
 /* chọn ghế */
 .seat {
     padding-bottom: 80px;
@@ -1574,6 +1576,8 @@
 .seat-cupple {
     flex: 2 !important; 
 }
+
+
 /* ghi chú */
 .seat-note {
     align-items: center;
@@ -1601,6 +1605,7 @@
 .seat-noti-couple {
     width: 30px;
 }
+
 
 /* chọn bắp nước */
 .dt-food-body .title {
@@ -1656,7 +1661,7 @@
 }
 .dt-food .content-top .name {
     text-transform: uppercase;
-    margin: 2px;
+    margin: 2px 0;
 }
 
 .dt-food .content-top .desc p {
@@ -1675,6 +1680,25 @@
 
 
 
+/*-----------------------------------chính sách bảo mật(policy.html)---------------------------------------- */
+.main-policy p  {
+    margin: 15px 0;
+}
+.main-policy {
+    background: radial-gradient(rgb(120, 95, 203) 0%, rgba(15,23,42,1) 70%, rgb(2, 2, 37) 100%);
+    color: var(--white-color);
+    font-size: var(--font-medium);
+}
+.main-policy h2  {
 
-
+    margin-top: 0px;
+    padding: 13px;
+}
+.botton-policy {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(4 6 38);
+    margin-top: -18px;
+}
+    
 
