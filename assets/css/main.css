@@ -184,7 +184,6 @@
 }
 
 .movie-rest{
-    padding-top: 50px;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -334,13 +333,14 @@
 .arrow-btn-next {
     right: -7rem;
 }
+
 /* nút xem thêm */
 .btn-showtimes{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .btn-showtimes button {
     width: 255px;
@@ -350,6 +350,36 @@
 }
 .btn-showtimes button:hover {
     color: var(--text-color);
+}
+
+/* Mobile: width < 740px  */
+@media only screen and (max-width: 46.1875em){
+
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .grid{
+        flex-direction: column;
+        width: 95%;
+    }
+    .footer{
+        padding: 50px !important;
+    }
+    .footer-top{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .footer-top-left{
+        display: flex;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-top-right{
+        
+    }
 }
 
 /* khuyến mãi */
@@ -591,14 +621,6 @@
     justify-content: center;
 }
 
-
-.showtimes-main{
-    width: 80%;
-    font: 16px  'Josefin Sans', sans-serif;
-    color: #ffff00;
-    margin: 0 auto;
-}
-
 .movie-part{
     margin: 0 auto;
 
@@ -635,6 +657,7 @@
     width: 100%;
     text-align: left;
     font-weight: bold;
+    font-size: var(--font-medium);
 }
 
 
@@ -646,6 +669,7 @@
     font-size: 24px;
     font-weight: 400;
     align-items: center;
+    color: yellow;
 }
 
 /* Chi tiết phần select */
@@ -716,6 +740,11 @@
     margin: 5px 10px;
     color:white;
     font-weight: 400;
+    font-size: var(--font-small);
+}
+
+.fas{
+    color: yellow;
 }
 
 .list-title{
