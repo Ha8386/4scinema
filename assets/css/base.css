@@ -5,9 +5,9 @@
     --hover-color:#f3ea28;
     --btn-color: #f3ea28;
     --hover-button-color: #484699;
-    --font-medium: 16px;
-    --font-large: 18px;
-    --font-small: 14px;
+    --font-large: 1.8rem;
+    --font-medium: 1.6rem;
+    --font-small: 1.4rem;
     --border-bottom: solid 0.667px darkgray;
     --font-title: 'Anton', sans-serif; 
     --icon-color: yellow;
